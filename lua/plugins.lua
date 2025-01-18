@@ -23,7 +23,7 @@ return {
     { "github/copilot.vim" },
 
     -- WhichKey
-    { "folke/which-key.nvim", config = true },
+    { "folke/which-key.nvim", lazy = true },
 
     -- Nvim-tree
     { 'nvim-tree/nvim-tree.lua' },

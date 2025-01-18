@@ -1,6 +1,7 @@
 require "keymaps"
 require "options"
 require "lazy-config"
+require "which-key-config"
 
 -- Disable unnecessary built-ins to improve startup time
 vim.g.loaded_netrw = 1
