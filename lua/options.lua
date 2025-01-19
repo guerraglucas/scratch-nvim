@@ -49,6 +49,7 @@ vim.g.markdown_recommended_style = 0
 
 -- Check if running in WSL
 if vim.fn.has('wsl') == 1 then
+    vim.keymap.set("n", "x", '"_x', { noremap = true, silent = true })
     vim.g.clipboard = {
         name = 'win32yank',
         copy = {
